@@ -4,7 +4,8 @@
   "description": "My first mock api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,10 @@
   "bugs": {
     "url": "https://github.com/JunkJim/mock-api/issues"
   },
-  "homepage": "https://github.com/JunkJim/mock-api#readme"
-  
+  "homepage": "https://github.com/JunkJim/mock-api#readme",
+  "dependencies": {
+    "json": "^11.0.0",
+    "json-server": "^0.17.3",
+    "server": "^1.0.38"
+  }
 }
